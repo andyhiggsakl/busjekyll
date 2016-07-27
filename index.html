@@ -26,6 +26,7 @@
         <header>
           <h1>City On Ltd Bus Display</h1>
         </header>
+        <hr>
 
         <div class="inner-background-image"> &nbsp; </div>	
 
@@ -35,6 +36,24 @@
 <a href="https://cityon.shuttlerock.com"> <img width=100 src="https://github.com/andyhiggsakl/busjekyll/blob/gh-pages/images/cityonofficialiconwhiteplay.png?raw=true" </a>
 </div>
 </div>
+
+<link href="https://socialhub.s3.amazonaws.com/production/styles/sr-socialhub.carousel.default.css.gz" rel="stylesheet" />
+<script src="https://socialhub.s3.amazonaws.com/production/scripts/app-carousel.min.js.gz"></script>
+
+<!-- Note - the height of the container around the <div> needs to be specified explicitly. -->
+<!--MODS:  -->
+<div ng-app="ngSocialHub" class="sr-sh sr-sh-theme"
+  ng-social-hub-carousel
+  ng-social-hub-customer="cityonsocial"
+  ng-social-hub-locale="en"
+  ng-social-hub-advert-frequency="10"
+  ng-social-hub-facebook-appid="119419081762854"
+  ng-social-hub-interval="5000"
+  ng-social-hub-disable-user-actions="true"
+  ng-social-hub-disable-carousel-indicator="true"
+  ng-social-hub-container-height="600px"
+  ng-social-hub-container-width="800px"
+  ng-social-hub-board-id="bus-content-4by3"></div>
 
 <style>
 .sr-sh .carousel-caption {
