@@ -87,8 +87,8 @@ header h2 {
 
 #container {
   min-height: 600px;
-  background: url(../images/cityon_logo.png) 0% 70% no-repeat;
-  background-size: 10px 10px;
+  background: 40% 70% no-repeat;
+  background-size: 800px 400px;
 }
 
 .inner {
